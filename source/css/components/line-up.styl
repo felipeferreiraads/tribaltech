@@ -1,0 +1,44 @@
+.line-up
+    padding 150px 0
+    background: $color.black
+    position relative
+    h2
+        font-family: $font-family.secondary
+        color: $color.blue !important
+        font-size 25px
+        letter-spacing: 15px
+        margin-bottom 70px
+        &:first-line
+            font-size 40px
+            color: $color.white
+            letter-spacing: 3px
+    .grid
+        display flex
+        flex-wrap: wrap
+    .artist
+        width 33.33%
+        background-image: url(../img/tio-ben.jpg)
+        background-repeat none 
+        background-size cover
+        &.multiply
+            background-blend-mode multiply
+            background-color: $color.primary-three
+        &:hover
+            transition .2s
+            > .info
+                opacity 1
+        .info
+            width 100%
+            height 100%
+            background: rgba(0,0,0,0.6)
+            display flex
+            justify-content: center
+            align-items: center
+            transition .2s ease
+            opacity 0
+            span
+                font-size 20px
+                color: $color.white
+                font-family: $font-family.secondary
+                text-transform uppercase
+                letter-spacing: 10px

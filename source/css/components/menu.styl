@@ -1,0 +1,28 @@
+.menu
+    width 100%
+    background: $color.black
+    position fixed
+    top 0
+    left 0
+    z-index 9999
+    .grid
+        display flex
+        justify-content: center
+        align-items: center
+        position relative
+        height 40px
+        a
+            font-size 14px
+            color: $color.white
+            text-transform: uppercase
+            font-family: $font-family.secondary
+            &:not(:last-child)
+                margin-right 40px
+        .logo
+            position absolute
+            top 50%
+            left 0
+            transform translateY(-50%)
+            img 
+                height 30px
+        
