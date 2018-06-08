@@ -33,11 +33,6 @@ $.getScript('https://maps.google.com/maps/api/js?key=AIzaSyAWWlEtv-ApTzfB9oNiPaK
                 })
             }
         })
-        var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    icon: iconBase + 'parking_lot_maps.png'
-  })
     })
     .fail(function () {
         console.log('Ocorreu algum erro ao carregar o script!')

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Tribaltech Festival</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.min.css" />
 </head>
 
@@ -18,7 +18,7 @@
                 </a>
                 <a href="#sobre">Sobre</a>
                 <a href="#palcos-artistas">Palcos e artistas</a>
-                <a href="#sobre">Local</a>
+                <a href="#local">Local</a>
                 <a href="#ingressos">Ingressos</a>
                 <a href="#contato">Contato</a>
             </div>
@@ -35,7 +35,7 @@
                     <span class="primary-three">Usina 5</span>
                 </p>
                 <div class="info">
-                    <a href="#" class="tickets">&nbsp;Ingressos</a>
+                    <a href="#ingressos" class="tickets">&nbsp;Ingressos</a>
                     <div class="social">
                         <span>Acompanhe</span>
                         <div class="links">
@@ -70,13 +70,13 @@
                 <span class="measure">seg</span>
             </div>
         </div>
-        <a href="#artistas">
+        <a href="#artistas" class="artists">
             <div class="triangle"></div>
         </a>
         <div class="skew black"></div>
     </section>
 
-    <section class="line-up">
+    <section class="line-up" id="artistas">
         <div class="container">
             <h2 class="ui-title">Artistas<br />Conheça a line</h2>
             <div class="grid">
@@ -90,7 +90,7 @@
         <div class="skew gray"></div>
     </section>
 
-    <section class="history">
+    <section class="history" id="sobre">
         <div class="container">
             <h2 class="ui-title right uppercase">A TribalTech<br />Conheça o festival</h2>
             <div class="grid">
@@ -111,9 +111,9 @@
         <div class="skew"></div>
     </section>
 
-    <section class="location">
+    <section class="location" id="local">
         <div class="container">
-            <h2 class="ui-title black uppercase">Local<br />Como chegar</h2>
+            <h2 class="ui-title black uppercase">Local<br />Curitiba - Paraná</h2>
             <div class="grid">
                 <div class="size-1">
                     <h3>Usina</h3>
@@ -126,33 +126,68 @@
         </div>
     </section>
 
-    <section class="tickets">
+    <section class="tickets" id="ingressos">
         <div class="container">
             <h2 class="ui-title black uppercase right">Ingressos<br />Adquira o seu</h2>
             <div class="grid">
                 <div class="ticket">
-                    <span class="category">pista</span>
-                    <span class="price white">R$ <i>150</i></span>
-                    <span class="text">Exercitation aute Lorem ex excepteur dolor ullamco reprehenderit quis officia magna.</span>
+                    <span class="category">TribalTech</span>
+                    <span class="price">R$ <i>150</i></span>
+                    <span class="text">Acesso a todas as pistas (TribalTech, Timetech, Supercool, Organic Beat, 3DTTRIP, Redoma e Tribba), visão frontal dos palcos, área de alimentação, área de descanso, guarda-volumes, caixas, bares e banheiros localizados em pontos estratégicos.</span>
                     <a href="#" class="link">
                         <span class="buy">Comprar</span>
                         <span class="icon icon-ticket"></span>
                     </a>
                 </div>
-                <div class="ticket premium">
-                    <span class="category">pista premium</span>
-                    <span class="price blue">R$ <i>200</i></span>
-                    <span class="text">Exercitation aute Lorem ex excepteur dolor ullamco reprehenderit quis officia magna.</span>
+                <div class="ticket gradient">
+                    <span class="category">TribalTech + Kit TT</span>
+                    <span class="price blue">R$ <i>175</i></span>
+                    <span class="text">Na compra do seu ingresso você poderá adquirir kit contendo um copo reutilizável, adesivos e colar-pingente que será utilizado como cartão de consumo no festival.</span>
                     <a href="#" class="link">
                         <span class="buy">Comprar</span>
                         <span class="icon icon-ticket"></span>
                     </a>
                 </div>
-                <div class="ticket cabin">
-                    <span class="category white">camarote</span>
-                    <span class="price pink">R$ <i>250</i></span>
-                    <span class="text white">Exercitation aute Lorem ex excepteur dolor ullamco reprehenderit quis officia magna.</span>
+                <div class="ticket">
+                    <span class="category">Área VIP</span>
+                    <span class="price">R$ <i>200</i></span>
+                    <span class="text">Espaço esclusivo com visão privilegiada do TribalTech Stage, acesso à área VIP com caixas, bares, atendimento por garçons e banheiros exclusivos, além de acesso a todas as áreas do ingresso TribalTech.</span>
                     <a href="#" class="link white">
+                        <span class="buy">Comprar</span>
+                        <span class="icon icon-ticket"></span>
+                    </a>
+                </div>
+                <div class="ticket gradient">
+                    <span class="category">Área VIP + Kit TT</span>
+                    <span class="price">R$ <i>225</i></span>
+                    <span class="text">Na compra do seu ingresso você poderá adquirir kit contendo um copo reutilizável, adesivos e colar-pingente que será utilizado como cartão de consumo no festival.</span>
+                    <a href="#" class="link">
+                        <span class="buy">Comprar</span>
+                        <span class="icon icon-ticket"></span>
+                    </a>
+                </div>
+                <div class="ticket">
+                    <span class="category">Backstage</span>
+                    <span class="price">R$ <i>400</i></span>
+                    <span class="text">Entrada exclusiva com estacionamento e atendimento diferenciado, acesso ao lounge do palco da TribalTech, área de descanso e banheiro premium, aém de acesso à área VIP e a todas as pistas (TribalTech, Timetech, Supercool, Organic Beat, 3DTTRIP, Redoma e Tribba), com visão frontal dos palcos, área de alimentação, área de descanso, guarda-volumes, caixas, bares e banheiros localizados em pontos estratégicos.</span>
+                    <a href="#" class="link">
+                        <span class="buy">Comprar</span>
+                        <span class="icon icon-ticket"></span>
+                    </a>
+                </div>
+                <div class="ticket gradient">
+                    <span class="category">Backstage + Kit TT</span>
+                    <span class="price">R$ <i>425</i></span>
+                    <span class="text">Na compra do seu ingresso você poderá adquirir kit contendo um copo reutilizável, adesivos e colar-pingente que será utilizado como cartão de consumo no festival.</span>
+                    <a href="#" class="link">
+                        <span class="buy">Comprar</span>
+                        <span class="icon icon-ticket"></span>
+                    </a>
+                </div>
+                <div class="ticket gradient">
+                    <span class="category">CONSUMO ANTECIPADO</span>
+                    <span class="text strong">Antecipe sua compra, garanta seu conforto e praticidade no evento. Adquira seu cartão de consumo antecipadamente e ganhe bônus exclusivos. Você pode ainda parcelar sua compra em 3x, aproveite!</span>
+                    <a href="#" class="link">
                         <span class="buy">Comprar</span>
                         <span class="icon icon-ticket"></span>
                     </a>
@@ -162,7 +197,7 @@
         <div class="skew black"></div>
     </section>
 
-    <section class="contact">
+    <footer class="contact" id="contato">
         <h2 class="ui-title center uppercase">Contato<br />&nbsp;Fale conosco</h2>
         <h3>Ingressos</h3>
         <span class="info">contato@aloingressos.com.br</span>
@@ -170,11 +205,12 @@
         <span class="info">Tipcomm / Assessoria em Comunicação (41) 3209-0820</span>
         <h3>Assuntos gerais</h3>
         <span class="info">contato@tribaltech.com.br / (41) 3284-3344</span>
-        <div class="social pink">
+        <div class="social pink center">
             <span>&nbsp;Acompanhe</span>
             <div class="links">
                 <a href="#"><span class="icon-facebook"></span></a>
                 <a href="#"><span class="icon-instagram"></span></a>
+                <a href="#"><span class="icon-youtube"></span></a>
             </div>
         </div>
         <div class="copyright">
@@ -184,7 +220,7 @@
                 <span>Todos os direitos reservados</span>
             </div>
         </div>
-    </section>
+    </footer>
     
     <script src="assets/js/bundle.min.js"></script>
 </body>

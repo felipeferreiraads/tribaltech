@@ -3,10 +3,12 @@
     background: $color.black
     +below($bp.md)
         padding 70px 20px
+    h2
+        color: $color.primary-three
     h3
         font-size 22px
         font-family: $font-family.secondary
-        color: $color.primary
+        color: $color.blue
         text-align center
         text-transform uppercase
         margin-bottom 5px
@@ -28,7 +30,7 @@
             align-items: center
         img 
             height 50px
-            margin-right 20px
+            margin-right 5px
             +below($bp.lg)
                 margin: 0 0 20px 0
         h4
@@ -45,3 +47,7 @@
             +below($bp.lg)
                 display block
                 text-align center
+    .links
+        a
+            &:hover
+                background: $color.primary-three !important
