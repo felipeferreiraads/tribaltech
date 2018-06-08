@@ -53,6 +53,8 @@
             margin-bottom 30px
             color: $color.white
             line-height 1.7
+            +below($bp.lg)
+                max-width 100%
             &.strong
                 font-size 20px
         .link
@@ -70,6 +72,8 @@
             bottom 50px
             right 50px
             color: $color.white
+            +below($bp.lg)
+                position initial
             &:hover
                 background: $color.white
                 color: $color.black

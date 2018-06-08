@@ -20,9 +20,13 @@
         background-image: url(../img/tio-ben.jpg)
         background-repeat none 
         background-size cover
+        +below($bp.lg)
+            width 50%
+        +below($bp.sm)
+            width 100%
         &.multiply
             background-blend-mode multiply
-            background-color: $color.primary-three
+            background-color: $color.multiply
         &:hover
             transition .2s
             > .info
